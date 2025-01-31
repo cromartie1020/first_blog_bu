@@ -3,7 +3,7 @@
 from pathlib import Path
 import os, json
 
-with open('/etc/first_blog') as config_file:
+with open('/etc/first_blog.json') as config_file:
     config=json.load(config_file)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
